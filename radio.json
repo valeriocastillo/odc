@@ -4,7 +4,7 @@
     "https://s3.free-shoutcast.com/stream/18060"
   ],
   "maintenance": {
-    "enabled": false,
+    "enabled": true,
     "message": "Estamos mejorando la emisora. Volvemos en unos minutos.",
     "jingleUrl": ""
   }
