@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ODC · La radio</title>
+<meta name="description" content="ODC, la radio en directo. App para Android.">
+<style>
+  :root { --navy:#050b1f; --red:#b81e1e; --soft:rgba(255,255,255,.72); }
+  * { box-sizing: border-box; }
+  html, body { height:100%; }
+  body { margin:0; color:#fff; background:
+           radial-gradient(ellipse at 50% 120%, #14246b 0%, rgba(20,36,107,0) 60%), var(--navy);
+         font:16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+         display:flex; flex-direction:column; align-items:center; justify-content:center;
+         text-align:center; padding:32px 20px; }
+  img { width:min(340px, 80vw); height:auto; }
+  h1 { margin:28px 0 6px; font-size:clamp(1.6rem, 5vw, 2.2rem); letter-spacing:.02em; }
+  p { margin:0 0 22px; color:var(--soft); max-width:30em; }
+  .badge { display:inline-block; padding:12px 24px; border-radius:999px; background:var(--red);
+           color:#fff; font-weight:700; letter-spacing:.02em; }
+  footer { margin-top:44px; font-size:.9rem; }
+  footer a { color:var(--soft); }
+</style>
+</head>
+<body>
+  <img src="logo.png" alt="ODC by Beat">
+  <h1>Escucha ODC en directo</h1>
+  <p>La app de la radio para tu móvil Android.</p>
+  <!-- Cuando la app esté publicada, cambia este <span> por:
+       <a class="badge" href="ENLACE_DE_GOOGLE_PLAY">Descargar en Google Play</a> -->
+  <span class="badge">Próximamente en Google Play</span>
+  <footer><a href="privacidad.html">Política de privacidad</a></footer>
+</body>
+</html>

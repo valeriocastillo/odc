@@ -1,0 +1,11 @@
+{
+  "stationName": "ODC",
+  "streams": [
+    "https://s3.free-shoutcast.com/stream/18060"
+  ],
+  "maintenance": {
+    "enabled": false,
+    "message": "Estamos mejorando la emisora. Volvemos en unos minutos.",
+    "jingleUrl": ""
+  }
+}
